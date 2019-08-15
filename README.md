@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.com/linksplatform/Counters.svg?branch=master)](https://travis-ci.com/linksplatform/Counters)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f095ae6c0742405399a34ad50ec6ab8d)](https://app.codacy.com/app/drakonard/Counters?utm_source=github.com&utm_medium=referral&utm_content=linksplatform/Counters&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ea4406f2974c4d509526f124ef117c4a)](https://www.codacy.com/app/drakonard/Counters?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=linksplatform/Counters&amp;utm_campaign=Badge_Grade)
 [![CodeFactor](https://www.codefactor.io/repository/github/linksplatform/Counters/badge)](https://www.codefactor.io/repository/github/linksplatform/Counters)
 
 # [Counters](https://github.com/linksplatform/Counters)
