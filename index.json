@@ -1,13 +1,13 @@
 {
+  "README.html": {
+    "href": "README.html",
+    "title": "Counters | LinksPlatform's Platform.Counters Library",
+    "keywords": "Counters LinksPlatform's Platform.Counters Class Library. Namespace: Platform.Counters Forked from: LinksPlatform/Helpers/Counters NuGet package: Platform.Counters Documentation PDF file with code for e-readers. Mystery files .travis.yml - Travis CI build configuration. docfx.json and toc.yml - DocFX build configuration. format-document.sh - script for formating tex file for generating PDF from it. format-csharp-files.py - script for formating single .cs file as a part of tex file. generate-pdf.sh - script that generates PDF with code for e-readers. publish-docs.sh - script that publishes generated documentation and PDF with code for e-readers to gh-pages branch. push-nuget.bat - Windows script for publishing current version of NuGet package."
+  },
   "api/Platform.Counters.Counter-1.html": {
     "href": "api/Platform.Counters.Counter-1.html",
     "title": "Class Counter<TValue> | LinksPlatform's Platform.Counters Library",
     "keywords": "Class Counter<TValue> Inheritance Object Counter Counter<TValue> Inherited Members Counter._count Counter.Count Counter.Increment() Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Counters Assembly : Platform.Counters.dll Syntax public class Counter<TValue> : Counter Type Parameters Name Description TValue Methods | Improve this Doc View Source IncrementAndReturnTrue() Declaration public bool IncrementAndReturnTrue() Returns Type Description Boolean | Improve this Doc View Source IncrementAndReturnTrue(TValue) Declaration public bool IncrementAndReturnTrue(TValue value) Parameters Type Name Description TValue value Returns Type Description Boolean"
-  },
-  "api/Platform.Counters.Counter.html": {
-    "href": "api/Platform.Counters.Counter.html",
-    "title": "Class Counter | LinksPlatform's Platform.Counters Library",
-    "keywords": "Class Counter Inheritance Object Counter Counter<TValue> Counter<TValue, TDecision> Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Counters Assembly : Platform.Counters.dll Syntax public class Counter Remarks Must be class, not struct (in order to persist access to Count field value). Fields | Improve this Doc View Source _count Declaration protected ulong _count Field Value Type Description UInt64 Properties | Improve this Doc View Source Count Declaration public ulong Count { get; } Property Value Type Description UInt64 Methods | Improve this Doc View Source Increment() Declaration public void Increment()"
   },
   "api/Platform.Counters.html": {
     "href": "api/Platform.Counters.html",
@@ -19,9 +19,9 @@
     "title": "Class Counter<TValue, TDecision> | LinksPlatform's Platform.Counters Library",
     "keywords": "Class Counter<TValue, TDecision> Inheritance Object Counter Counter<TValue, TDecision> Inherited Members Counter._count Counter.Count Counter.Increment() Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Counters Assembly : Platform.Counters.dll Syntax public class Counter<TValue, TDecision> : Counter Type Parameters Name Description TValue TDecision Constructors | Improve this Doc View Source Counter() Declaration public Counter() | Improve this Doc View Source Counter(TDecision) Declaration public Counter(TDecision trueValue) Parameters Type Name Description TDecision trueValue Methods | Improve this Doc View Source IncrementAndReturnTrue() Declaration public TDecision IncrementAndReturnTrue() Returns Type Description TDecision | Improve this Doc View Source IncrementAndReturnTrue(TValue) Declaration public TDecision IncrementAndReturnTrue(TValue value) Parameters Type Name Description TValue value Returns Type Description TDecision"
   },
-  "README.html": {
-    "href": "README.html",
-    "title": "Counters | LinksPlatform's Platform.Counters Library",
-    "keywords": "Counters LinksPlatform's Platform.Counters Class Library. Namespace: Platform.Counters Forked from: LinksPlatform/Helpers/Counters NuGet package: Platform.Counters Documentation PDF file with code for e-readers. Mystery files .travis.yml - Travis CI build configuration. docfx.json and toc.yml - DocFX build configuration. format-document.sh - script for formating tex file for generating PDF from it. format-csharp-files.py - script for formating single .cs file as a part of tex file. generate-pdf.sh - script that generates PDF with code for e-readers. publish-docs.sh - script that publishes generated documentation and PDF with code for e-readers to gh-pages branch. push-nuget.bat - Windows script for publishing current version of NuGet package."
+  "api/Platform.Counters.Counter.html": {
+    "href": "api/Platform.Counters.Counter.html",
+    "title": "Class Counter | LinksPlatform's Platform.Counters Library",
+    "keywords": "Class Counter Inheritance Object Counter Counter<TValue> Counter<TValue, TDecision> Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Counters Assembly : Platform.Counters.dll Syntax public class Counter Remarks Must be class, not struct (in order to persist access to Count field value). Fields | Improve this Doc View Source _count Declaration protected ulong _count Field Value Type Description UInt64 Properties | Improve this Doc View Source Count Declaration public ulong Count { get; } Property Value Type Description UInt64 Methods | Improve this Doc View Source Increment() Declaration public void Increment()"
   }
 }
