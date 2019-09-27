@@ -1,4 +1,9 @@
 {
+  "api/Platform.Counters.Counter.html": {
+    "href": "api/Platform.Counters.Counter.html",
+    "title": "Class Counter | LinksPlatform's Platform.Counters Library",
+    "keywords": "Class Counter Inheritance Object Counter Counter<TValue> Counter<TValue, TDecision> Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Counters Assembly : Platform.Counters.dll Syntax public class Counter Remarks Must be class, not struct (in order to persist access to Count field value). Fields | Improve this Doc View Source _count Declaration protected ulong _count Field Value Type Description UInt64 Properties | Improve this Doc View Source Count Declaration public ulong Count { get; } Property Value Type Description UInt64 Methods | Improve this Doc View Source Increment() Declaration public void Increment()"
+  },
   "README.html": {
     "href": "README.html",
     "title": "Counters | LinksPlatform's Platform.Counters Library",
@@ -18,10 +23,5 @@
     "href": "api/Platform.Counters.html",
     "title": "Namespace Platform.Counters | LinksPlatform's Platform.Counters Library",
     "keywords": "Namespace Platform.Counters Classes Counter Counter<TValue> Counter<TValue, TDecision>"
-  },
-  "api/Platform.Counters.Counter.html": {
-    "href": "api/Platform.Counters.Counter.html",
-    "title": "Class Counter | LinksPlatform's Platform.Counters Library",
-    "keywords": "Class Counter Inheritance Object Counter Counter<TValue> Counter<TValue, TDecision> Inherited Members Object.Equals(Object) Object.Equals(Object, Object) Object.GetHashCode() Object.GetType() Object.MemberwiseClone() Object.ReferenceEquals(Object, Object) Object.ToString() Namespace : Platform.Counters Assembly : Platform.Counters.dll Syntax public class Counter Remarks Must be class, not struct (in order to persist access to Count field value). Fields | Improve this Doc View Source _count Declaration protected ulong _count Field Value Type Description UInt64 Properties | Improve this Doc View Source Count Declaration public ulong Count { get; } Property Value Type Description UInt64 Methods | Improve this Doc View Source Increment() Declaration public void Increment()"
   }
 }
