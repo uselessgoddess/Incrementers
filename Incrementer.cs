@@ -7,7 +7,7 @@ namespace Platform.Incrementers
     /// <remarks>
     /// Must be class, not struct (in order to persist access to Count field value).
     /// </remarks>
-    public class Incrementer
+    public class Incrementer : IIncrementer
     {
         protected ulong _result;
 
