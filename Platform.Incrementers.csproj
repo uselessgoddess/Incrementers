@@ -1,22 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>LinksPlatform's Platform.Counters Class Library</Description>
+    <Description>LinksPlatform's Platform.Incrementers Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
-    <AssemblyTitle>Platform.Counters</AssemblyTitle>
-    <VersionPrefix>0.0.2</VersionPrefix>
+    <AssemblyTitle>Platform.Incrementers</AssemblyTitle>
+    <VersionPrefix>0.0.1</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">netstandard2.0;net471</TargetFrameworks>
     <TargetFramework Condition="'$(OS)' != 'Windows_NT'">netcoreapp2.0</TargetFramework>
-    <AssemblyName>Platform.Counters</AssemblyName>
-    <PackageId>Platform.Counters</PackageId>
-    <PackageTags>LinksPlatform;Counters;</PackageTags>
+    <AssemblyName>Platform.Incrementers</AssemblyName>
+    <PackageId>Platform.Incrementers</PackageId>
+    <PackageTags>LinksPlatform;Incrementers;</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
-    <PackageProjectUrl>https://linksplatform.github.io/Counters</PackageProjectUrl>
+    <PackageProjectUrl>https://linksplatform.github.io/Incrementers</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>git://github.com/linksplatform/Counters</RepositoryUrl>
+    <RepositoryUrl>git://github.com/linksplatform/Incrementers</RepositoryUrl>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>

@@ -3,9 +3,9 @@
 #pragma warning disable IDE0060 // Remove unused parameter
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
 
-namespace Platform.Counters
+namespace Platform.Incrementers
 {
-    public class Counter<TValue> : Counter
+    public class Incrementer<TValue> : Incrementer
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public bool IncrementAndReturnTrue()
