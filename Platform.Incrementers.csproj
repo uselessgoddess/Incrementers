@@ -4,12 +4,12 @@
     <Description>LinksPlatform's Platform.Incrementers Class Library</Description>
     <Copyright>Konstantin Diachenko</Copyright>
     <AssemblyTitle>Platform.Incrementers</AssemblyTitle>
-    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionPrefix>0.0.3</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
     <TargetFrameworks>net471;netstandard2.0;netstandard2.1</TargetFrameworks>
     <AssemblyName>Platform.Incrementers</AssemblyName>
     <PackageId>Platform.Incrementers</PackageId>
-    <PackageTags>LinksPlatform;Incrementers;</PackageTags>
+    <PackageTags>LinksPlatform;Incrementers;IIncrementer;Incrementer</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/linksplatform/Documentation/18469f4d033ee9a5b7b84caab9c585acab2ac519/doc/Avatar-rainbow-icon-64x64.png</PackageIconUrl>
     <PackageProjectUrl>https://linksplatform.github.io/Incrementers</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -24,8 +24,22 @@
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <LangVersion>latest</LangVersion>
-    <PackageReleaseNotes>Added support for net461 (.NET Framework 4.6.1).
-Issues fix.</PackageReleaseNotes>
+    <PackageReleaseNotes>The library renamed from Platform.Counters to Platform.Incrementers.
+Lowest supported version of .NET Framework is now 4.7.1.
+Added support for .NET Standard 2.1 (.NET Core 3.0).
+Added IIncrementer interface.
+Incrementer now implements IIncrementer interface.
+IIncrementer&lt;TNumber&gt; interface moved from Platform.Interfaces library.
+The Count property of Incrementer classes renamed to Result property.
+Incrementer&lt;TValue&gt; now inherits from Incrementer&lt;TValue, bool&gt;.
+Added constructors to set the initial incremented value for Incrementer classes.
+Source link enabled.
+Travis CI disabled.
+GitHub Actions enabled.
+Refactoring, performance optimizations, issues fix.
+
+This release is not backward compatible with the previous release as Platform.Counters (0.0.2).
+This is an initial release as Platform.Incrementers package.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup Condition="$(TargetFramework.StartsWith('net4')) AND '$(MSBuildRuntimeType)' == 'Core' AND '$(OS)' != 'Windows_NT'">
@@ -33,7 +47,7 @@ Issues fix.</PackageReleaseNotes>
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-19367-01" PrivateAssets="All"/>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-19367-01" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
