@@ -10,14 +10,14 @@ namespace Platform.Incrementers
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public bool IncrementAndReturnTrue()
         {
-            _count++;
+            _result++;
             return true;
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public bool IncrementAndReturnTrue(TValue value)
         {
-            _count++;
+            _result++;
             return true;
         }
     }

@@ -9,11 +9,11 @@ namespace Platform.Incrementers
     /// </remarks>
     public class Incrementer
     {
-        protected ulong _count;
+        protected ulong _result;
 
-        public ulong Count => _count;
+        public ulong Result => _result;
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public void Increment() => _count++;
+        public void Increment() => _result++;
     }
 }

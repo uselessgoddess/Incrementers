@@ -16,14 +16,14 @@ namespace Platform.Incrementers
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision IncrementAndReturnTrue()
         {
-            _count++;
+            _result++;
             return _trueValue;
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public TDecision IncrementAndReturnTrue(TValue value)
         {
-            _count++;
+            _result++;
             return _trueValue;
         }
     }
