@@ -5,20 +5,12 @@
 
 namespace Platform.Incrementers
 {
-    public class Incrementer<TValue> : Incrementer
+    public class Incrementer<TValue> : Incrementer<TValue, bool>
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public bool IncrementAndReturnTrue()
-        {
-            _result++;
-            return true;
-        }
+        public Incrementer(ulong initialValue) : base(initialValue, true) { }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public bool IncrementAndReturnTrue(TValue value)
-        {
-            _result++;
-            return true;
-        }
+        public Incrementer() { }
     }
 }

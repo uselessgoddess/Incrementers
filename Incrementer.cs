@@ -14,6 +14,12 @@ namespace Platform.Incrementers
         public ulong Result => _result;
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public Incrementer(ulong initialValue) => _result = initialValue;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public Incrementer() { }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public void Increment() => _result++;
     }
 }

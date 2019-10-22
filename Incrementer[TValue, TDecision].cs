@@ -9,8 +9,13 @@ namespace Platform.Incrementers
     {
         private readonly TDecision _trueValue;
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public Incrementer(ulong initialValue, TDecision trueValue) : base(initialValue) => _trueValue = trueValue;
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Incrementer(TDecision trueValue) => _trueValue = trueValue;
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Incrementer() { }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
