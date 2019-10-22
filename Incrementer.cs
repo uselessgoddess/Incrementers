@@ -5,7 +5,7 @@
 namespace Platform.Incrementers
 {
     /// <remarks>
-    /// Must be class, not struct (in order to persist access to Count field value).
+    /// Must be class, not struct (in order to persist access to Result field value).
     /// </remarks>
     public class Incrementer : IIncrementer
     {
