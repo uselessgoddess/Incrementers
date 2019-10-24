@@ -15,12 +15,3 @@ NuGet package: [Platform.Incrementers](https://www.nuget.org/packages/Platform.I
 
 ## [Documentation](https://linksplatform.github.io/Incrementers)
 [PDF file](https://linksplatform.github.io/Incrementers/Platform.Incrementers.pdf) with code for e-readers.
-
-## Mystery files
-*   [docfx.json](https://github.com/linksplatform/Incrementers/blob/master/docfx.json) and [toc.yml](https://github.com/linksplatform/Incrementers/blob/master/toc.yml) - [DocFX](https://dotnet.github.io/docfx) build configuration.
-*   [format-csharp-files.py](https://github.com/linksplatform/Incrementers/blob/master/format-csharp-files.py) - script for formatting `.cs` files as a part of `tex` file.
-*   [format-document.sh](https://github.com/linksplatform/Incrementers/blob/master/format-document.sh) - script for formatting `tex` file for generating PDF from it.
-*   [generate-pdf.sh](https://github.com/linksplatform/Incrementers/blob/master/generate-pdf.sh) - script that generates PDF with code for e-readers.
-*   [publish-docs.sh](https://github.com/linksplatform/Incrementers/blob/master/publish-docs.sh) - script that publishes generated documentation and PDF with code for e-readers to [gh-pages](https://github.com/linksplatform/Incrementers/tree/gh-pages) branch.
-*   [publish-release.sh](https://github.com/linksplatform/Incrementers/blob/master/publish-release.sh) - script for publishing release of current package version on [GitHub](https://github.com/).
-*   [push-nuget.sh](https://github.com/linksplatform/Incrementers/blob/master/push-nuget.sh) - script for publishing current version of [NuGet](https://www.nuget.org) package.
