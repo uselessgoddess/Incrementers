@@ -6,7 +6,7 @@
     <AssemblyTitle>Platform.Incrementers</AssemblyTitle>
     <VersionPrefix>0.0.3</VersionPrefix>
     <Authors>Konstantin Diachenko</Authors>
-    <TargetFrameworks>net471;netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net472;netstandard2.0;netstandard2.1</TargetFrameworks>
     <AssemblyName>Platform.Incrementers</AssemblyName>
     <PackageId>Platform.Incrementers</PackageId>
     <PackageTags>LinksPlatform;Incrementers;IIncrementer;Incrementer</PackageTags>
