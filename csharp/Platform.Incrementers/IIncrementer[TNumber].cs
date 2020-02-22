@@ -1,4 +1,6 @@
-﻿namespace Platform.Incrementers
+﻿using System.Runtime.CompilerServices;
+
+namespace Platform.Incrementers
 {
     /// <summary>
     /// <para>Defines an incrementer that increments any number with a specific type.</para>
