@@ -13,6 +13,7 @@
         /// </summary>
         /// <param name="number"><para>The number to be incremented.</para><para>Увеличиваемое число.</para></param>
         /// <returns><para>The incremented number.</para><para>Увеличенное число.</para></returns>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         TNumber Increment(TNumber number);
     }
 }

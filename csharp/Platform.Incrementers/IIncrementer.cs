@@ -1,4 +1,6 @@
-﻿namespace Platform.Incrementers
+﻿using System.Runtime.CompilerServices;
+
+namespace Platform.Incrementers
 {
     /// <summary>
     /// <para>Defines an incrementer that increments any object.</para>
@@ -10,6 +12,7 @@
         /// <para>Increments the object by a specific value.</para>
         /// <para>Выполняет приращение объекта на определённое значение.</para>
         /// </summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         void Increment();
     }
 }

@@ -11,7 +11,11 @@ namespace Platform.Incrementers
     {
         protected ulong _result;
 
-        public ulong Result => _result;
+        public ulong Result
+        {
+            [MethodImpl(MethodImplOptions.AggressiveInlining)]
+            get => _result;
+        }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public Incrementer(ulong initialValue) => _result = initialValue;
