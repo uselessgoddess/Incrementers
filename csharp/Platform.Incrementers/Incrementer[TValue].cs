@@ -10,6 +10,6 @@ namespace Platform.Incrementers
         public Incrementer(ulong initialValue) : base(initialValue, true) { }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public Incrementer() { }
+        public Incrementer() : base(true) { }
     }
 }
