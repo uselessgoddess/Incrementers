@@ -18,91 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "nAs942nfP+wklQbQ+Ph+PQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Incrementers.IIncrementer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Incrementers.IIncrementer-1.html",
-          "hash": "3qXmMbxVN+zrzZPh0c9mdw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Incrementers.IIncrementer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Incrementers.IIncrementer.html",
-          "hash": "3/zn29CZclBQHfHk0LKzyg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Incrementers.Incrementer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Incrementers.Incrementer-1.html",
-          "hash": "u/KD6RibLNrqV2uTZ33tjQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Incrementers.Incrementer-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Incrementers.Incrementer-2.html",
-          "hash": "/s1abmVRrb8o2j1NOCuBCg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Incrementers.Incrementer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Incrementers.Incrementer.html",
-          "hash": "c4DbutfnP0kFJCWGneQUoA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/Platform.Incrementers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Platform.Incrementers.html",
-          "hash": "NiDFL0eWxQnE96aTJ4OWyg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "obj/api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "qdv1W0B4S/mhramwyoT9pA=="
+          "hash": "CKjioOCpkMq8h2/g76ZfUw=="
         }
       },
       "is_incremental": false,
@@ -117,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "5N9dM7+vc1d26hwTixYFyA=="
+          "hash": "nyAd8dV4frHsOUlw+BCqjw=="
         }
       },
       "is_incremental": false,
@@ -139,12 +55,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 6,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
