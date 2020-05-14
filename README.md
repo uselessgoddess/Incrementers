@@ -7,11 +7,11 @@
 
 LinksPlatform's Platform.Incrementers Class Library.
 
-Namespace: [Platform.Incrementers](https://linksplatform.github.io/Incrementers/api/Platform.Incrementers.html)
+Namespace: [Platform.Incrementers](https://linksplatform.github.io/Incrementers/csharp/api/Platform.Incrementers.html)
 
 Forked from: [LinksPlatform/Helpers/Incrementers](https://github.com/linksplatform/Helpers/tree/e27f7586f8015cad596b6aa3c2df2ac2a3dadb60/Incrementers)
 
 NuGet package: [Platform.Incrementers](https://www.nuget.org/packages/Platform.Incrementers)
 
 ## [Documentation](https://linksplatform.github.io/Incrementers)
-[PDF file](https://linksplatform.github.io/Incrementers/Platform.Incrementers.pdf) with code for e-readers.
+[PDF file](https://linksplatform.github.io/Incrementers/csharp/Platform.Incrementers.pdf) with code for e-readers.
