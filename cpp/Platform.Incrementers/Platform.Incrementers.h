@@ -10,5 +10,4 @@
 #include "Incrementer[TValue, TDecision].h"
 #include "Incrementer[TValue].h"
 
-
 #endif//PLATFORM_INCREMENTERS
