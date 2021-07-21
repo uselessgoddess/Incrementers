@@ -28,7 +28,7 @@ namespace Platform::Incrementers
 
         public: Incrementer() = default;
 
-        public: explicit Incrementer(TValue value = {}, TDecision trueValue= Internal::true_or_default<TDecision>()): _trueValue(trueValue)
+        public: explicit Incrementer(TValue value = {}, TDecision trueValue = Internal::true_or_default<TDecision>()): _trueValue(trueValue)
         {
         }
 
