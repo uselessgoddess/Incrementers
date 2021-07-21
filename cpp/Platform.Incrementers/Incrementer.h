@@ -13,6 +13,6 @@
 
         public: Incrementer() = default;
 
-        public: void Increment() { _result++; }
+        public: void Increment() noexcept { _result++; }
     };
 }
