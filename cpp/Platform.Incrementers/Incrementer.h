@@ -1,4 +1,4 @@
-namespace Internal
+namespace Platfrom::Incrementers::Internal
 {
     template<typename decision_type>
     constexpr auto true_or_default()
