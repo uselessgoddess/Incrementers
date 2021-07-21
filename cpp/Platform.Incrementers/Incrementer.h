@@ -7,7 +7,7 @@
 
         public: [[nodiscard]] auto Result() const noexcept { return _result; }
 
-        public: explicit Incrementer(std::uint64_t initialValue) : _result(initialValue)
+        public: explicit Incrementer(std::size_t initialValue) : _result(initialValue)
         {
         }
 
