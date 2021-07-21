@@ -25,14 +25,6 @@
 
         public: Incrementer() = default;
 
-        public: explicit Incrementer(std::size_t initialValue) : _result(initialValue)
-        {
-        }
-
-        public: explicit Incrementer(std::size_t initialValue, TDecision trueValue) : base(initialValue), _trueValue(trueValue)
-        {
-        }
-
         public: explicit Incrementer(TValue value = {}, TDecision decision = true_or_default<TDecision>()): _trueValue(trueValue)
         {
         }
