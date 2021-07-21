@@ -26,7 +26,7 @@ namespace Platform::Incrementers::Tests
 
     TEST(IncrementersTests, MethodsWithIntegerReturnTypeTest)
     {
-        auto incrementer = Incrementer<int, int>(1);
+        auto incrementer = Incrementer<int, int>(0, 1);
         incrementer.Increment();
         ASSERT_EQ(1UL, incrementer.Result());
         ASSERT_EQ(1, incrementer.IncrementAndReturnTrue());
