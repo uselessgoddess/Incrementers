@@ -3,7 +3,7 @@
     template<typename...> class Incrementer;
     template<> class Incrementer<>
     {
-        protected: std::uint64_t _result {};
+        protected: std::size_t _result {};
 
         public: [[nodiscard]] auto Result() const noexcept { return _result; }
 
