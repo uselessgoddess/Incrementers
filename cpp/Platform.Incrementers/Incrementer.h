@@ -1,4 +1,4 @@
-namespace Platfrom::Incrementers::Internal
+﻿namespace Platform::Incrementers::Internal
 {
     template<typename decision_type>
     constexpr auto true_or_default()
@@ -26,9 +26,8 @@ namespace Platform::Incrementers
 
         public: [[nodiscard]] auto Result() const noexcept { return _result; }
 
-        public: Incrementer() = default;
-
-        public: explicit Incrementer(TValue value = {}, TDecision trueValue = Internal::true_or_default<TDecision>()): _trueValue(trueValue)
+        public: explicit Incrementer(TValue value = {}, TDecision trueValue = Internal::true_or_default<TDecision>())
+            : _result(value), _trueValue(trueValue)
         {
         }
 
@@ -45,15 +44,5 @@ namespace Platform::Incrementers
             _result++;
             return _trueValue;
         }
-
-        /*using anotherbase = Incrementer<TValue, bool>;
-
-        public: explicit Incrementer(std::size_t initialValue) : anotherbase(initialValue, true)
-        {
-        }
-
-        public: Incrementer() : anotherbase(true)
-        {
-        }*/
     };
 }
