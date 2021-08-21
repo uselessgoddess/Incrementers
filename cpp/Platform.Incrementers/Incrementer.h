@@ -35,13 +35,13 @@ namespace Platform::Incrementers
 
         public: TDecision IncrementAndReturnTrue()
         {
-            _result++;
+            Increment();
             return _trueValue;
         }
 
         public: TDecision IncrementAndReturnTrue(TValue value)
         {
-            _result++;
+            Increment();
             return _trueValue;
         }
     };
