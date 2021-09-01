@@ -1,20 +1,4 @@
-﻿namespace Platform::Incrementers::Internal
-{
-    template<typename decision_type>
-    constexpr auto true_or_default()
-    {
-        if constexpr (std::integral<decision_type>)
-        {
-            return decision_type{1};
-        }
-        else
-        {
-            return decision_type{};
-        }
-    }
-}
-
-namespace Platform::Incrementers
+﻿namespace Platform::Incrementers
 {
     template<typename TValue = std::size_t, typename TDecision = bool>
     class Incrementer
@@ -26,7 +10,12 @@ namespace Platform::Incrementers
 
         public: [[nodiscard]] auto Result() const noexcept { return _result; }
 
-        public: explicit Incrementer(TValue value = {}, TDecision trueValue = Internal::true_or_default<TDecision>())
+        public: explicit Incrementer(TValue value = {}, TDecision trueValue = true)
+        requires std::same_as<TDecision, bool> : _result(value), _trueValue(trueValue)
+        {
+        }
+
+        public: explicit Incrementer(TValue value, TDecision trueValue)
             : _result(value), _trueValue(trueValue)
         {
         }
@@ -35,13 +24,13 @@ namespace Platform::Incrementers
 
         public: TDecision IncrementAndReturnTrue()
         {
-            Increment();
+            _result++;
             return _trueValue;
         }
 
         public: TDecision IncrementAndReturnTrue(TValue value)
         {
-            Increment();
+            _result++;
             return _trueValue;
         }
     };
