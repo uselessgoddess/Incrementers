@@ -1,28 +1,37 @@
 ﻿namespace Platform::Incrementers
 {
-    template<typename...>
-    class Incrementer;
-    template<>
-    class Incrementer<>
+    template<typename TValue = std::size_t, typename TDecision = bool>
+    class Incrementer
     {
-    protected:
-        std::uint64_t _result = 0;
+        using base = Incrementer;
+        private: const TDecision _trueValue {};
 
-    public:
-        [[nodiscard]] std::uint64_t Result() const
+        protected: std::size_t _result {};
+
+        public: [[nodiscard]] auto Result() const noexcept { return _result; }
+
+        public: explicit Incrementer(TValue value = {}, TDecision trueValue = true) requires std::same_as<TDecision, bool>
+            : _result(value), _trueValue(trueValue)
         {
-            return _result;
         }
 
-        explicit Incrementer(std::uint64_t initialValue) : _result(initialValue)
+        public: explicit Incrementer(TValue value, TDecision trueValue)
+            : _result(value), _trueValue(trueValue)
         {
         }
 
-        Incrementer() = default;
+        public: void Increment() noexcept { _result++; }
 
-        void Increment()
+        public: TDecision IncrementAndReturnTrue()
         {
             _result++;
+            return _trueValue;
+        }
+
+        public: TDecision IncrementAndReturnTrue(TValue value)
+        {
+            _result++;
+            return _trueValue;
         }
     };
 }
