@@ -1,1 +1,1 @@
-﻿//defined in Incrementer.h
+// implemented in Incrementer.h
