@@ -10,8 +10,8 @@
 
         public: [[nodiscard]] auto Result() const noexcept { return _result; }
 
-        public: explicit Incrementer(TValue value = {}, TDecision trueValue = true)
-        requires std::same_as<TDecision, bool> : _result(value), _trueValue(trueValue)
+        public: explicit Incrementer(TValue value = {}, TDecision trueValue = true) requires std::same_as<TDecision, bool>
+            : _result(value), _trueValue(trueValue)
         {
         }
 
